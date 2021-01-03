@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import ReactGA from 'react-ga';
 import $ from 'jquery';
 import './App.css';
+import { HashRouter } from "react-router-dom";
 import Header from './Components/Header';
 import Footer from './Components/Footer';
 import About from './Components/About';
@@ -34,7 +35,6 @@ class App extends Component {
       }.bind(this),
       error: function(xhr, status, err){
         console.log(err);
-        alert(err);
       }
     });
   }
@@ -45,6 +45,7 @@ class App extends Component {
 
   render() {
     return (
+      <HashRouter basename={process.env.PUBLIC_URL}>
       <div className="App">
         <Header data={this.state.resumeData.main}/>
         <About data={this.state.resumeData.main}/>
@@ -54,6 +55,7 @@ class App extends Component {
         <Contact data={this.state.resumeData.main}/>
         <Footer data={this.state.resumeData.main}/>
       </div>
+      </HashRouter>
     );
   }
 }
