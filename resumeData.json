@@ -56,7 +56,7 @@
         "company":"xneelo",
         "title":"WordPress Developer",
         "years":"2019 - Present",
-        "description":"The xneelo team in Vancouver are creating a hosted WordPress platform, within which the WordPress development team, which I am a part of, are building a framework that allows users to create their own curated website. We have created a selection of starter themes that the user can select from and customize. We have added many options and designs to the WordPress customizer, and built our own Gutenberg blocks plugin containing several custom blocks. The stack includes PHP, React, SCSS and Docker."
+        "description":"I am part of the WordPress Development team at xneelo. The team as a whole are creating a hosted WordPress platform, within which my team are building a framework that allows users to create their own custom website. We have created a selection of starter themes that the user can select from and customize. We have also added many options and designs to the WordPress customizer, and built our own Gutenberg blocks plugin containing several custom blocks (built with React). The stack includes PHP, React, SCSS and Docker."
       },
       {
         "company": "Another Blank Page",
@@ -74,7 +74,7 @@
     "skills":[
       {
         "name":"WordPress",
-        "level":"70%"
+        "level":"75%"
       },
       {
         "name":"JavaScript",
@@ -98,7 +98,7 @@
       },
       {
         "name":"MySQL",
-        "level":"30%"
+        "level":"35%"
       }
     ]
   },
